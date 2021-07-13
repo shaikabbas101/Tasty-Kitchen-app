@@ -1,0 +1,79 @@
+.cart-item-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  overflow: auto;
+}
+.cart-food-img {
+  width: 200px;
+  height: 100px;
+  border-radius: 10px;
+}
+.cart-item-name {
+  font-family: 'DM Sans';
+  font-style: normal;
+  font-weight: 500;
+  text-align: left;
+  font-size: 14px;
+  width: 100%;
+}
+.cost-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: ' DM Sans';
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffa412;
+}
+.cart-hr-tag {
+  height: 0px;
+  width: 1061px;
+  left: 213px;
+  top: 480px;
+}
+.order-total-heading {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #3e4c59;
+}
+.order-total-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.total-price {
+  font-family: 'DM Sans';
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: right;
+  color: #3e4c59;
+}
+.cart-item-mobile-details-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+.mobile-cart-details-container {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-bottom: 30px;
+}

@@ -1,0 +1,114 @@
+.item-quantity-price-heading-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.item-head {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.20000000298023224px;
+  text-align: left;
+  color: #475569;
+}
+.cart-bg-container {
+  overflow: auto;
+}
+
+@media screen and (min-width: 768px) {
+  .cart-bg-container {
+    border: 1px solid #f9fbfe;
+    background: rgba(11, 105, 255, 0.1);
+    overflow: auto;
+  }
+}
+.cart-items-bg-container {
+  height: 504px;
+  width: 90%;
+}
+.quantity {
+  margin-left: 250px;
+}
+.confirm-btn {
+  background-color: #f7931e;
+  color: #ffffff;
+  border: none;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  width: 140px;
+  height: 36px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.order-btn-container {
+  text-align: right;
+}
+
+.empty-cart-content-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.empty-cart-heading {
+  font-family: DM Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #1e293b;
+}
+.empty-cart-description {
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #64748b;
+}
+.empty-cart-order-now-btn {
+  background-color: #f7931e;
+  color: #ffffff;
+  border: none;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  width: 140px;
+  height: 36px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.empty-cart-img {
+  width: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .empty-cart-img {
+    width: 500px;
+  }
+  .order-btn-container {
+    text-align: center;
+  }
+  .empty-cart-heading {
+    font-size: 32px;
+  }
+  .empty-cart-description {
+    font-size: 20px;
+  }
+}

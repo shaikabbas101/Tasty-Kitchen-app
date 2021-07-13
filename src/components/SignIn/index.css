@@ -1,0 +1,122 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+.sign-in-bg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+.sign-in-and-img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.sign-in-page-img {
+  height: 100vh;
+  width: 600px;
+  margin-left: 50px;
+}
+.sign-in-form-container {
+  height: 400px;
+  width: 352px;
+  left: 24px;
+  top: 160px;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: none;
+}
+.sign-in-mobile-form-container {
+  height: 400px;
+  width: 352px;
+  left: 24px;
+  top: 160px;
+  border-radius: 12px;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border: none;
+}
+.kitchen-logo {
+  align-self: center;
+}
+.sign-in-heading {
+  font-family: DM Sans;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 40px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #0f172a;
+}
+.sign-in-button {
+  background-color: #f7931e;
+  color: #ffffff;
+  border: none;
+  font-family: DM Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+  letter-spacing: 0em;
+  width: 100%;
+  height: 36px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+.sign-in-mobile-page-img {
+  height: 387px;
+  width: 387px;
+  margin-right: -140px;
+  margin-top: -48px;
+  border-radius: 249.93751525878906px;
+}
+.mobile-sign-in-img-and-heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile-sign-in-heading {
+  align-items: flex-end;
+  margin-top: 350px;
+  font-family: DM Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: #0f172a;
+}
+.label-element {
+  font-family: DM Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  text-align: left;
+  color: #475569;
+}
+.input-field {
+  height: 40px;
+  width: 312px;
+  left: 0px;
+  top: 24px;
+  border-radius: 2px;
+  background: #e2e8f0;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
